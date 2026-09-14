@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project Data & Model Cache
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+
+# Large binary files & datasets
+*.npz
+*.joblib
+*.parquet
+*.csv
+*.pcap
+*.tar.gz
+*.zip
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDEs & Code Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs & Environment Variables
+*.log
+.env
+.env.local
+
+#Docs Build
+docs/

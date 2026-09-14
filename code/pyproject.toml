@@ -1,0 +1,23 @@
+[project]
+name = "cyber-recon-detector"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "antsiri",email = "antoniosirignano@outlook.it"}
+]
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "tqdm (>=4.70.0,<5.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "lightgbm (>=4.7.0,<5.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "cyber_recon_detector", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
